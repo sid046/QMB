@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/pic"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="250sp"
+        android:layout_height="200sp"
+        android:layout_marginLeft="150sp"
+        android:layout_marginTop="20sp"
+        android:foregroundGravity="center"
+        android:src="@drawable/ghh"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_marginTop="20dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/dsv"
+            app:civ_border_color="#00CDF3"
+            app:civ_border_width="4dp">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+
+
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_width="250sp"
+
+        android:layout_height="55sp"
+        android:layout_marginBottom="60sp"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:textSize="25sp"
+        android:fontFamily="serif-monospace"
+        android:textColor="#fff"
+        android:background="#F80505"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:text="Quantum-Model Book"
+        android:textStyle="bold"/>
+</RelativeLayout>

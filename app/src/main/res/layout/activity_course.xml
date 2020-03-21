@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".course"
+    android:background="@drawable/login_card">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="198dp"
+            android:layout_height="177dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="105dp"
+            android:foregroundGravity="center"
+            android:src="@drawable/dsv"
+            app:civ_border_color="#2962FF"
+            app:civ_border_width="3dp">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:text="@string/select_course"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4sp"
+            android:background="#fff"
+            />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="40sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="4sp"
+            android:gravity="center">
+
+
+            <TextView
+                android:id="@+id/btech"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundbutton1"
+                android:fontFamily="serif-monospace"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="B.TECH"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="50dp" />
+
+
+
+            <TextView
+                android:id="@+id/dip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/roundbutton1"
+                android:fontFamily="serif-monospace"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="DIPLOMA"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="50dp" />
+
+            <TextView
+                android:id="@+id/bsc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/roundbutton1"
+                android:fontFamily="serif-monospace"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="B.SC"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="50dp" />
+
+            <TextView
+                android:id="@+id/management"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/roundbutton1"
+                android:fontFamily="serif-monospace"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="MANAGEMENT"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="50dp" />
+
+            <TextView
+                android:id="@+id/pharamcy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/roundbutton1"
+                android:fontFamily="serif-monospace"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="PHARMACY"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="50dp" />
+
+            <TextView
+                android:id="@+id/msc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/roundbutton1"
+                android:fontFamily="serif-monospace"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="M.SC"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="50dp" />
+
+            <TextView
+                android:id="@+id/bca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/roundbutton1"
+                android:fontFamily="serif-monospace"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="BCA"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="50dp" />
+
+            <TextView
+                android:id="@+id/mca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/roundbutton1"
+                android:fontFamily="serif-monospace"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="MCA"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="50dp" />
+
+
+            <TextView
+                android:id="@+id/mtech"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/roundbutton1"
+                android:fontFamily="serif-monospace"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="M.TECH"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="50dp" />
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="712sp"
+        android:text="Quantum-Model Book"
+        android:textAlignment="center"
+        android:background="#D6052E"/>
+
+</RelativeLayout>

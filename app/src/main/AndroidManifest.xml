@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.animation.qmb">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/dsv"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ghh"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+
+
+        <activity android:name=".management.bbam"/>
+        <activity android:name=".management.bbap"/>
+        <activity android:name=".management.bcom"/>
+        <activity android:name=".management.bcomp"/>
+        <activity android:name=".management.bhmp"/>
+        <activity android:name=".management.bhmm"/>
+        <activity android:name=".management.bjmcm"/>
+        <activity android:name=".management.llbm"/>
+        <activity android:name=".management.llbp"/>
+        <activity android:name=".management.mbam"/>
+        <activity android:name=".management.mbap"/>
+        <activity android:name=".bsc.agm"/>
+        <activity android:name=".bsc.agp"/>
+        <activity android:name=".bsc.chm"/>
+        <activity android:name=".bsc.chp"/>
+        <activity android:name=".bsc.grm"/>
+        <activity android:name=".bsc.grp"/>
+        <activity android:name=".bsc.mthm"/>
+        <activity android:name=".bsc.mthp"/>
+        <activity android:name=".bsc.nutm"/>
+        <activity android:name=".bsc.nutp"/>
+        <activity android:name=".bsc.phym"/>
+        <activity android:name=".bsc.phyp"/>
+        <activity android:name=".bsc.radm"/>
+        <activity android:name=".bsc.radp"/>
+        <activity android:name=".msc.magrop"/>
+        <activity android:name=".msc.magrom" />
+        <activity android:name=".msc.mnutm" />
+        <activity android:name=".msc.mnutp" />
+        <activity android:name=".pharma.dpharmap" />
+        <activity android:name=".pharma.dpharmam" />
+        <activity android:name=".pharma.bpharmap" />
+        <activity android:name=".pharma.bpharmam" />
+        <activity android:name=".metch.mmem" />
+        <activity android:name=".metch.mmep" />
+        <activity android:name=".metch.mcsem" />
+        <activity android:name=".metch.mcsep" />
+        <activity android:name=".betch.bmem" />
+        <activity android:name=".betch.bmep" />
+        <activity android:name=".betch.bcep" />
+        <activity android:name=".betch.bcem" />
+        <activity android:name=".betch.beep" />
+        <activity android:name=".betch.beem" />
+        <activity android:name=".betch.bmtep" />
+        <activity android:name=".betch.bmtem" />
+        <activity android:name=".betch.bpep" />
+        <activity android:name=".betch.bpem" />
+        <activity android:name=".diplomaa.eem" />
+        <activity android:name=".diplomaa.eep" />
+        <activity android:name=".diplomaa.csem" />
+        <activity android:name=".diplomaa.csep" />
+        <activity android:name=".diplomaa.mem" />
+        <activity android:name=".diplomaa.mep" />
+        <activity android:name=".diplomaa.cep" />
+        <activity android:name=".diplomaa.cem" />
+        <activity android:name=".betch.bcsem" />
+        <activity android:name=".betch.bcsep" />
+        <activity android:name=".mca.mcam" />
+        <activity android:name=".mca.mcap" />
+        <activity android:name=".bca.Cam" />
+        <activity android:name=".QuestionPaper" />
+        <activity android:name=".metch.mtech" />
+        <activity android:name=".msc.msc" />
+        <activity android:name=".pharmacy" />
+        <activity android:name=".management.management" />
+        <activity android:name=".bsc.bsc" />
+        <activity android:name=".diplomaa.diploma" />
+        <activity android:name=".betch.btech" />
+        <activity android:name=".course" />
+        <activity android:name=".verify" />
+        <activity android:name=".Register" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

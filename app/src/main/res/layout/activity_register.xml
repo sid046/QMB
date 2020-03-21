@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Register">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginRight="4dp"
+        android:background="@drawable/login_card">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/dsv"
+                    app:civ_border_color="#10DAF8"
+                    app:civ_border_width="4dp">
+
+                </de.hdodenhof.circleimageview.CircleImageView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="50sp"
+                android:layout_height="wrap_content"
+                android:text="Please Enter your mobile NO"
+
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:fontFamily="serif-monospace"
+                android:textStyle="bold"/>
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="15dp">
+
+                <EditText
+                    android:id="@+id/MOBILE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    android:fontFamily="serif-monospace"
+                    android:hint="Mobile No"
+                    android:textSize="25sp"
+                    android:textAlignment="center"
+                    android:drawableLeft="@drawable/ic_phone"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="4dp"
+                    android:textColorHint="#FDFDFD"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonPanel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#fff"
+                android:background="@drawable/roundbutton1"
+                android:textSize="25sp"
+                android:layout_marginTop="2sp"
+                android:fontFamily="serif-monospace"
+                android:text="CONTINUE"
+                android:textStyle="bold"/>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:textSize="25sp"
+        android:fontFamily="serif-monospace"
+        android:textColor="#fff"
+        android:background="#F80505"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:text="Quantum-Model Book"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

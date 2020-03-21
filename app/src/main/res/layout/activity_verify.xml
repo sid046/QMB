@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".verify">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginRight="4dp"
+        android:background="@drawable/login_card">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/dsv"
+                app:civ_border_color="#00B8D4"
+                app:civ_border_width="4dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+            </de.hdodenhof.circleimageview.CircleImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="serif-monospace"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:layout_marginTop="30dp"
+                android:text="Wait for the code I sent You"
+                android:textStyle="bold"/>
+
+            <ProgressBar
+                android:id="@+id/progressbar"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/verify"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:digits="0123456789"
+                android:fontFamily="serif-monospace"
+                android:drawablePadding="10dp"
+                android:hint="Enter Verification Code"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:textColorHint="#fff"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/sign_in"
+                android:layout_width="171dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/roundbutton1"
+                android:fontFamily="serif-monospace"
+                android:text="Sign In"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:textSize="25sp"
+        android:fontFamily="serif-monospace"
+        android:textColor="#fff"
+        android:background="#F80505"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:text="Quantum-Model Book"
+        android:textStyle="bold"/>
+</RelativeLayout>
